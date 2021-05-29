@@ -1,0 +1,1 @@
+"Hello ASS".postln;
