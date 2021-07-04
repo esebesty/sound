@@ -453,7 +453,3 @@ p = Pbind(
 {PlayBuf.ar(numChannels: 2, bufnum: ~buf01, rate: 1, loop: 1) * 0.2}.play;
 
 {PlayBuf.ar(numChannels: 2, bufnum: ~buf02, rate: 1, loop: 1) * 0.2}.play;
-
-
-
-

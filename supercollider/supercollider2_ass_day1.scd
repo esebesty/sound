@@ -13,10 +13,11 @@ s.plotTree;
 ~overtone.duration;
 ~overtone.numFrames / 44100;
 
+
 // uGen --> PlayBuf
 
 (
-SynthDef(\playback, {
+SynthDef(\playback1, {
     arg bufnum, endframe = 1, rate = 1, tfreq = 1, amp = 1, start = 0, out;
     var sig, trig;
 
@@ -34,7 +35,7 @@ SynthDef(\playback, {
 }).add;
 )
 
-x = Synth(\playback, [\bufnum, ~buf01, \rate, 2, \tfreq, 3, \start, 0.1, \endframe, ~buf01.numFrames - 1, \out, 0]);
+x = Synth(\playback1, [\bufnum, ~buf01, \rate, 2, \tfreq, 3, \start, 0.1, \endframe, ~buf01.numFrames - 1, \out, 0]);
 
 x.set(\rate, 1);
 
@@ -68,19 +69,30 @@ y.set(\tfreq, 5);
 
 // grainbuf
 
+(
+~buf03 = Buffer.readChannel(server: s, path: "/Users/esebesty/Dropbox/Documents/06-MUSIC/04-supercollider-workshop/overtone-short.wav",
+    channels: [0]
+);
+)
+
 
 (
-~buf03 = Buffer.readChannel(server: s, path: "/Users/esebesty/Dropbox/Documents/06-MUSIC/04-supercollider-workshop/electronic.wav",
+~buf04 = Buffer.readChannel(server: s, path: "/Users/esebesty/Dropbox/Documents/06-MUSIC/04-supercollider-workshop/electronic.wav",
     channels: [0]
 );
 )
 
 (
-~buf04 = Buffer.readChannel(server: s, path: "/Users/esebesty/Dropbox/Documents/06-MUSIC/04-supercollider-workshop/overtone-short.wav",
+~mukodik = Buffer.readChannel(server: s, path: "/Users/esebesty/Dropbox/Documents/06-MUSIC/04-supercollider-workshop/mukodik.wav",
     channels: [0]
 );
 )
 
+(
+~overfull = Buffer.readChannel(server: s, path: "/Users/esebesty/Dropbox/Documents/06-MUSIC/04-supercollider-workshop/overtone-full.wav",
+    channels: [0]
+);
+)
 
 (
 SynthDef(\grain01, {
@@ -115,7 +127,7 @@ SynthDef(\grain02, {
     var sig, trig, pan;
 
     trig = Impulse.ar(tfreq);
-    pan  = LFNoise0.ar(panfreq);
+    pan  = LFNoise1.ar(panfreq);
 
     sig = GrainBuf.ar(
         numChannels: 2,
@@ -131,48 +143,87 @@ SynthDef(\grain02, {
 }).add;
 )
 
-x = Synth(\grain02, [\out, 0, \bufnum, ~buf04]);
+x = Synth(\grain02, [\out, 0, \bufnum, ~buf03]);
 x.set(\tfreq, 15)
 x.set(\dur, 0.7)
 x.set(\posfreq, 0.05)
 
-y = Synth(\grain02, [\out, 0, \bufnum, ~buf03]);
+y = Synth(\grain02, [\out, 0, \bufnum, ~buf04]);
 y.set(\tfreq, 10)
 y.set(\dur, 0.6)
 
 
-x = Synth(\grain02, [\out, 0, \bufnum, ~buf03, \tfreq, 10, \posfreq, 0.05, \amp, 0.5]);
+x = Synth(\grain02, [\out, 0, \bufnum, ~buf04, \tfreq, 10, \posfreq, 0.05, \amp, 0.5]);
 
 
+
+// 3 ures elem
 ~synth = Array.newClear(3);
 
+// 3 szintetizatort indit
 (
 3.do{
     arg index;
     ~synth[index] = Synth(\grain02, [
         \out, 0,
-        \bufnum, ~buf04,
-        \tfreq, 10,
-        \posfreq, 0.05,
-        \amp, 0.5]);
+        \bufnum, ~buf03,
+        \tfreq, rrand(5.5, 20.5).postln,
+        \posfreq, 0.1,
+        \amp, 0.2]);
 };
 )
 
+// egyesevel kiloheted
 ~synth[2].free;
 ~synth[1].free;
 ~synth[0].free;
 
+~synth[0].set(\amp, 0.3, \posfreq, 0.05);
+~synth[1].set(\amp, 0.2, \posfreq, 0.1);
+~synth[2].set(\amp, 0.2, \posfreq, 0.2);
 
 
+// grouping
 
+(
+~grpsynths = Group.new;
 
+3.do{
+    arg index;
+    ~synth[index] = Synth(\grain02, [
+        \out, 0,
+        \bufnum, ~mukodik,
+        \tfreq, rrand(2, 10).postln,
+        \posfreq, 0.1,
+        \amp, 0.2
+    ], ~grpsynths
+    );
+};
+)
 
+~grpsynths.set(\amp, 0.5, \posfreq, 0.9);
 
+// whatever
 
+x = Synth(\grain02, [\out, 0, \bufnum, ~overfull]);
+x.set(\tfreq, 20)
+x.set(\dur, 0.2)
+x.set(\posfreq, 0.05)
 
+(
+~grpsynths = Group.new;
 
+3.do{
+    arg index;
+    ~synth[index] = Synth(\grain02, [
+        \out, 0,
+        \bufnum, ~overfull,
+        \tfreq, rrand(2, 10).postln,
+        \posfreq, 0.1,
+        \amp, 0.2
+    ], ~grpsynths
+    );
+};
+)
 
-
-
-
-
+~grpsynths.set(\amp, 0.3, \posfreq, 0.2);

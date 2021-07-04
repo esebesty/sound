@@ -195,9 +195,3 @@ y = {SinOsc.ar(freq: a) * 0.2};
 	sig3 = Pan2.ar(in: sig2, pos: pos1);
 }.play;
 )
-
-
-
-
-
-
