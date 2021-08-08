@@ -97,7 +97,7 @@ OSCdef.new(
     \toggle,
     {
         arg msg, time, addr, port;
-        msg[1].postln;
+        x.set(\gate, msg[1]);
     },
     '/main/toggle1'
 );
@@ -106,7 +106,7 @@ OSCdef.new(
     \fader1,
     {
         arg msg, time, addr, port;
-        msg[1].postln;
+        x.set(\freq, msg[1].linexp(0, 1, 20, 500));
     },
     '/main/fader1'
 );
@@ -115,16 +115,16 @@ OSCdef.new(
     \fader2,
     {
         arg msg, time, addr, port;
-        msg[1].postln;
+        x.set(\nharm, msg[1].linlin(0, 1, 1, 50));
     },
     '/main/fader2'
 );
 
 OSCdef.new(
-    \fader2,
+    \fader3,
     {
         arg msg, time, addr, port;
-        msg[1].postln;
+        x.set(\amp, msg[1].linexp(0, 1, 0.001, 1));
     },
     '/main/fader3'
 );
@@ -133,7 +133,7 @@ OSCdef.new(
     \rotary1,
     {
         arg msg, time, addr, port;
-        msg[1].postln;
+        x.set(\pan, msg[1].linlin(0, 1, -1, 1));
     },
     '/main/rotary1'
 );
@@ -142,22 +142,12 @@ OSCdef.new(
     \rotary1,
     {
         arg msg, time, addr, port;
-        msg[1].postln;
+        x.set(\detune, msg[1].linexp(0, 1, 0.01, 12));
     },
     '/main/rotary2'
 );
-
 )
 
 
-
-
-
-
-
-
-
-
-
-
-
+x = Synth.new(\tone);
+x.set(\gate, 0);
