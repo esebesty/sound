@@ -1,0 +1,742 @@
+{
+	"pattrstorage" : 	{
+		"name" : "presetek",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"amxd~" : [  ],
+					"function" : [ 1000.0, 0.0, 1.0, 0.0, 1.0, 0, 417.232491234515578, 0.901513064702352, 0, 417.232491234515578, 0.0, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 83.431231333326977 ],
+					"live.slider[1]" : [ 79.635605811814742 ],
+					"slider" : [ 92 ],
+					"slider[1]" : [ 58 ],
+					"vst~" : [  ],
+					"bp.FM::Amt" : [  ],
+					"bp.FM::Depth" : [  ],
+					"bp.FM::Mute" : [  ],
+					"bp.FM::Offset" : [  ],
+					"bp.FM::Ratio" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"amxd~" : [  ],
+					"function" : [ 1000.0, 0.0, 1.0, 0.0, 1.0, 0, 241.70057634089855, 0.141513064702352, 0, 757.658023149409246, 1.0, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 83.431231333326977 ],
+					"live.slider[1]" : [ 79.635605811814742 ],
+					"slider" : [ 92 ],
+					"slider[1]" : [ 58 ],
+					"vst~" : [  ],
+					"bp.FM::Amt" : [  ],
+					"bp.FM::Depth" : [  ],
+					"bp.FM::Mute" : [  ],
+					"bp.FM::Offset" : [  ],
+					"bp.FM::Ratio" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"amxd~" : [  ],
+					"function" : [ 1000.0, 0.0, 1.0, 7.658023149409193, 0.501513064702352, 0, 257.658023149409189, 0.674846398035685, 0, 752.338874213239023, 0.128179731369019, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 117.953169095158529 ],
+					"live.slider[1]" : [ 6.444969377156123 ],
+					"slider" : [ 75 ],
+					"slider[1]" : [ 73 ],
+					"vst~" : [  ],
+					"bp.FM::Amt" : [  ],
+					"bp.FM::Depth" : [  ],
+					"bp.FM::Mute" : [  ],
+					"bp.FM::Offset" : [  ],
+					"bp.FM::Ratio" : [  ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"amxd~" : [  ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [  ],
+					"bp.FM::Amt" : [ 0.0 ],
+					"bp.FM::Depth" : [ 2.0 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ 0.0 ],
+					"bp.FM::Ratio" : [ 1.23 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"amxd~" : [  ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [  ],
+					"bp.FM::Amt" : [ 62.992125984251899 ],
+					"bp.FM::Depth" : [ 0.071394704711131 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ -32.251968503936965 ],
+					"bp.FM::Ratio" : [ 12.354619550618095 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : -19.971268053774075,
+										"EnvInterval" : 351.937430023469062,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : -0.47244094488189,
+										"EnvSmooth" : 120.67233966072159,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 5011.871990064824786,
+										"FilterGain" : -19.961110915828719,
+										"FilterQ" : 5.089929702831586,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [  ],
+					"bp.FM::Amt" : [ 36.535433070866105 ],
+					"bp.FM::Depth" : [ 0.881408928732456 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ -18.706141732283442 ],
+					"bp.FM::Ratio" : [ 7.682279339358494 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 17.824007536777074,
+										"EnvInterval" : 351.937430023469062,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : -0.47244094488189,
+										"EnvSmooth" : 289.963678243398761,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1783.525533371914889,
+										"FilterGain" : -19.961110915828719,
+										"FilterQ" : 5.089929702831586,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [  ],
+					"bp.FM::Amt" : [ 36.535433070866105 ],
+					"bp.FM::Depth" : [ 0.881408928732456 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ -18.706141732283442 ],
+					"bp.FM::Ratio" : [ 7.682279339358494 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 17.824007536777074,
+										"EnvInterval" : 351.937430023469062,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : -0.47244094488189,
+										"EnvSmooth" : 289.963678243398761,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1783.525533371914889,
+										"FilterGain" : -19.961110915828719,
+										"FilterQ" : 5.089929702831586,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "bx_rooMS",
+							"origin" : "bx_rooMS.vstinfo",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "bx_rooMS.vstinfo",
+								"plugindisplayname" : "bx_rooMS",
+								"pluginsavedname" : "C74_VST:/bx_rooMS",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "988.CMlaKA....fQPMDZ....AHFdx0F...P.....fSTYlEVcrQG..............................L.nP0FcxA..CPI..L.m....s....P......v81cx8Cf..vO.B..+.H..7Cf..PSogGT+.H..7Cf..vO.B..+.H..jjavwzO....+....7C...vO....OUGcL8C...vO....+....7C...vTooWY.....7SV13zOYYiS+jkMNIkYiQG.....+TS7i7SMwOxO0D+HDkVaPA....vOyMyL+L2Ly7ybyLCTxUFT......................kbkQD.....................XYTYj8Cf..vO.B..+.H..7Cf...QxkGQ.....................LEbxA0O.B..+.H..7Cf..vO.B..SAmbj8C...vO....+....7C....RSgFT+.H..7Cf..vO.B..+.H..fzTnYzOW8yn+b0Oi9yU+L5OW8ynHMEZL8SMUY0O0TkU+TSUV8SMUYESSgFT+.H..7Cf..vO.B..+.H..vzTnYjOLWU+9vbU86CyU0uOLWU+LMEZL8Cf..vO.B..+.H..7Cf...QD8ja.....................jjaBkG.....................OUmP4A....................PSlIWb+HCaa9iLrs4Oxv1l+HCaa1TXsQGOidsB7L50JvynWq.OidsBBElaqA....................PayA2c+.H..7Cf..vO.B..+.H..zVavc2O.B..+.H..7Cf..vO.B..s8Vaq4CHjRgOfPJE9.BoT3CHjRAbt0Fb+.H..7Cf..vO.B..+.H...Wask1O....+....7C...vO....kEGb28Cf..vO.B..+.H..7Cf...YxMWZ.....................v1avc2O....+....7C...vO....r81cv8id8G5O50en+nW+g9id8GJZoA2c+....7C...vO....+....fVZmAmO.vTo9..Sk5C.LUpO.vTovECb28Cf..vO.B..+.H..7Cf...bqEiY9roFk4ylZTlOapQY9roFkA2ZwDmOqA6X9rFri4yZvNlOqA6XvsVLm8C...vO....+....7C....bx.2c+.H..7Cf..vO.B..+.H...2ZxX1OIsrM+jzx17SRKayOIsrMvslLw4yZvNlOqA6X9rFri4yZvNFbqIyY+....7C...vO....+....DmazoG..........................."
+							}
+
+						}
+ ],
+					"bp.FM::Amt" : [ 36.535433070866105 ],
+					"bp.FM::Depth" : [ 0.881408928732456 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ -18.706141732283442 ],
+					"bp.FM::Ratio" : [ 7.682279339358494 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 17.824007536777074,
+										"EnvInterval" : 351.937430023469062,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : -0.47244094488189,
+										"EnvSmooth" : 289.963678243398761,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1783.525533371914889,
+										"FilterGain" : -19.961110915828719,
+										"FilterQ" : 5.089929702831586,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "bx_rooMS",
+							"origin" : "bx_rooMS.vstinfo",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "bx_rooMS.vstinfo",
+								"plugindisplayname" : "bx_rooMS",
+								"pluginsavedname" : "C74_VST:/bx_rooMS",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "988.CMlaKA....fQPMDZ....AHFdx0F...P.....fSTYlEVcrQG..............................L.nP0FcxA..CPI..L.m....s....P......v81cx8Cf..vO.B..+.H..7Cf..PSogGT+.H..7Cf..vO.B..+.H..jjavwzO....+....7C...vO....OUGcL8C...vO....+....7C...vTooWY+.H..7SV13zOYYiS+jkMNIkYiQ2O54uf+TS7i7SMwOxO0D+HDkVaP8Cf..vOyMyL+L2Ly7ybyLCTxUFT......................kbkQD.....................XYTYj8Cf..vO.B..+.H..7Cf...QxkGQ.....................LEbxA0O.B..+.H..7Cf..vO.B..SAmbj8C...vO....+....7C....RSgFT+.H..7Cf..vO.B..+.H..fzTnYzOW8yn+b0Oi9yU+L5OW8ynHMEZL8SMUY0O0TkU+TSUV8SMUYESSgFT+.H..7Cf..vO.B..+.H..vzTnYjOLWU+9vbU86CyU0uOLWU+LMEZL8Cf..vO.B..+.H..7Cf...QD8ja.....................jjaBkG.....................OUmP4A....................PSlIWb+HCaa9iLrs4Oxv1l+HCaa1TXsQGOidsB7L50JvynWq.OidsBBElaqA....................PayA2c+.H..7Cf..vO.B..+.H..zVavc2O.B..+.H..7Cf..vO.B..s8Vaq4CHjRgOfPJE9.BoT3CHjRAbt0Fb+.H..7Cf..vO.B..+.H...Wask1O....+....7C...vO....kEGb28Cf..vO.B..+.H..7Cf...YxMWZ.....................v1avc2O....+....7C...vO....r81cv8id8G5O50en+nW+g9id8GJZoA2c+....7C...vO....+....fVZmAmO.vTo9..Sk5C.LUpO.vTovECb28Cf..vO.B..+.H..7Cf...bqEiY9roFk4ylZTlOapQY9roFkA2ZwDmOqA6X9rFri4yZvNlOqA6XvsVLm8C...vO....+....7C....bx.2c+.H..7Cf..vO.B..+.H...2ZxX1OIsrM+jzx17SRKayOIsrMvslLw4yZvNlOqA6X9rFri4yZvNFbqIyY+....7C...vO....+....DmazoG..........................."
+							}
+
+						}
+ ],
+					"bp.FM::Amt" : [ 36.535433070866105 ],
+					"bp.FM::Depth" : [ 0.881408928732456 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ -18.706141732283442 ],
+					"bp.FM::Ratio" : [ 7.682279339358494 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 17.824007536777074,
+										"EnvInterval" : 351.937430023469062,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : -0.47244094488189,
+										"EnvSmooth" : 289.963678243398761,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1783.525533371914889,
+										"FilterGain" : -19.961110915828719,
+										"FilterQ" : 5.089929702831586,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 0.0, 1.0, 0, 241.70057634089855, 0.141513064702352, 0, 757.658023149409246, 1.0, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 83.431231333326977 ],
+					"live.slider[1]" : [ 79.635605811814742 ],
+					"slider" : [ 92 ],
+					"slider[1]" : [ 58 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "bx_rooMS",
+							"origin" : "bx_rooMS.vstinfo",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "bx_rooMS.vstinfo",
+								"plugindisplayname" : "bx_rooMS",
+								"pluginsavedname" : "C74_VST:/bx_rooMS",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "988.CMlaKA....fQPMDZ....AHFdx0F...P.....fSTYlEVcrQG..............................L.nP0FcxA..CPI..L.m....s....P......v81cx8Cf..vO.B..+.H..7Cf..PSogGT+.H..7Cf..vO.B..+.H..jjavwzO....+....7C...vO....OUGcL8C...vO....+....7C...vTooWY.....7SV13zOYYiS+jkMNIkYiQG.....+TS7i7SMwOxO0D+HDkVaPA....vOyMyL+L2Ly7ybyLCTxUFT......................kbkQD.....................XYTYj8Cf..vO.B..+.H..7Cf...QxkGQ.....................LEbxA0O.B..+.H..7Cf..vO.B..SAmbj8C...vO....+....7C....RSgFT+.H..7Cf..vO.B..+.H..fzTnYzOW8yn+b0Oi9yU+L5OW8ynHMEZL8SMUY0O0TkU+TSUV8SMUYESSgFT+.H..7Cf..vO.B..+.H..vzTnYjOLWU+9vbU86CyU0uOLWU+LMEZL8Cf..vO.B..+.H..7Cf...QD8ja.....................jjaBkG.....................OUmP4A....................PSlIWb+HCaa9iLrs4Oxv1l+HCaa1TXsQGOidsB7L50JvynWq.OidsBBElaqA....................PayA2c+.H..7Cf..vO.B..+.H..zVavc2O.B..+.H..7Cf..vO.B..s8Vaq4CHjRgOfPJE9.BoT3CHjRAbt0Fb+.H..7Cf..vO.B..+.H...Wask1O....+....7C...vO....kEGb28Cf..vO.B..+.H..7Cf...YxMWZ.....................v1avc2O....+....7C...vO....r81cv8id8G5O50en+nW+g9id8GJZoA2c+....7C...vO....+....fVZmAmO.vTo9..Sk5C.LUpO.vTovECb28Cf..vO.B..+.H..7Cf...bqEiY9roFk4ylZTlOapQY9roFkA2ZwDmOqA6X9rFri4yZvNlOqA6XvsVLm8C...vO....+....7C....bx.2c+.H..7Cf..vO.B..+.H...2ZxX1OIsrM+jzx17SRKayOIsrMvslLw4yZvNlOqA6X9rFri4yZvNFbqIyY+....7C...vO....+....DmazoG..........................."
+							}
+
+						}
+ ],
+					"bp.FM::Amt" : [ 0.0 ],
+					"bp.FM::Depth" : [ 2.0 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ 0.0 ],
+					"bp.FM::Ratio" : [ 1.23 ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 0.0,
+										"EnvInterval" : 50.0,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : 0.0,
+										"EnvSmooth" : 50.0,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1000.0,
+										"FilterGain" : 0.0,
+										"FilterQ" : 1.0,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "bx_rooMS",
+							"origin" : "bx_rooMS.vstinfo",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "bx_rooMS.vstinfo",
+								"plugindisplayname" : "bx_rooMS",
+								"pluginsavedname" : "C74_VST:/bx_rooMS",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "988.CMlaKA....fQPMDZ....AHFdx0F...P.....fSTYlEVcrQG..............................L.nP0FcxA..CPI..L.m....s....P......v81cx8Cf..vO.B..+.H..7Cf..PSogGT+.H..7Cf..vO.B..+.H..jjavwzO....+....7C...vO....OUGcL8C...vO....+....7C...vTooWY+.H..7SV13zOYYiS+jkMNIkYiQ2O54uf+TS7i7SMwOxO0D+HDkVaP8Cf..vOyMyL+L2Ly7ybyLCTxUFT......................kbkQD.....................XYTYj8Cf..vO.B..+.H..7Cf...QxkGQ.....................LEbxA0O.B..+.H..7Cf..vO.B..SAmbj8C...vO....+....7C....RSgFT+.H..7Cf..vO.B..+.H..fzTnYzOW8yn+b0Oi9yU+L5OW8ynHMEZL8SMUY0O0TkU+TSUV8SMUYESSgFT+.H..7Cf..vO.B..+.H..vzTnYjOLWU+9vbU86CyU0uOLWU+LMEZL8Cf..vO.B..+.H..7Cf...QD8ja.....................jjaBkG.....................OUmP4A....................PSlIWb+HCaa9iLrs4Oxv1l+HCaa1TXsQGOidsB7L50JvynWq.OidsBBElaqA....................PayA2c+.H..7Cf..vO.B..+.H..zVavc2O.B..+.H..7Cf..vO.B..s8Vaq4CHjRgOfPJE9.BoT3CHjRAbt0Fb+.H..7Cf..vO.B..+.H...Wask1O....+....7C...vO....kEGb28Cf..vO.B..+.H..7Cf...YxMWZ.....................v1avc2O....+....7C...vO....r81cv8id8G5O50en+nW+g9id8GJZoA2c+....7C...vO....+....fVZmAmO.vTo9..Sk5C.LUpO.vTovECb28Cf..vO.B..+.H..7Cf...bqEiY9roFk4ylZTlOapQY9roFkA2ZwDmOqA6X9rFri4yZvNlOqA6XvsVLm8C...vO....+....7C....bx.2c+.H..7Cf..vO.B..+.H...2ZxX1OIsrM+jzx17SRKayOIsrMvslLw4yZvNlOqA6X9rFri4yZvNFbqIyY+....7C...vO....+....DmazoG..........................."
+							}
+
+						}
+ ],
+					"bp.FM::Amt" : [ 0.0 ],
+					"bp.FM::Depth" : [ 2.0 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ 0.0 ],
+					"bp.FM::Ratio" : [ 1.23 ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 0.0,
+										"EnvInterval" : 50.0,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : 0.0,
+										"EnvSmooth" : 50.0,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1000.0,
+										"FilterGain" : 0.0,
+										"FilterQ" : 1.0,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "bx_rooMS",
+							"origin" : "bx_rooMS.vstinfo",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "bx_rooMS.vstinfo",
+								"plugindisplayname" : "bx_rooMS",
+								"pluginsavedname" : "C74_VST:/bx_rooMS",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "988.CMlaKA....fQPMDZ....AHFdx0F...P.....fSTYlEVcrQG..............................L.nP0FcxA..CPI..L.m....s....P......v81cx8Cf..vO.B..+.H..7Cf..PSogGT+.H..7Cf..vO.B..+.H..jjavwzO....+....7C...vO....OUGcL8C...vO....+....7C...vTooWY+.H..7SV13zOYYiS+jkMNIkYiQ2O54uf+TS7i7SMwOxO0D+HDkVaP8Cf..vOyMyL+L2Ly7ybyLCTxUFT......................kbkQD.....................XYTYj8Cf..vO.B..+.H..7Cf...QxkGQ.....................LEbxA0O.B..+.H..7Cf..vO.B..SAmbj8C...vO....+....7C....RSgFT+.H..7Cf..vO.B..+.H..fzTnYzOW8yn+b0Oi9yU+L5OW8ynHMEZL8SMUY0O0TkU+TSUV8SMUYESSgFT+.H..7Cf..vO.B..+.H..vzTnYjOLWU+9vbU86CyU0uOLWU+LMEZL8Cf..vO.B..+.H..7Cf...QD8ja.....................jjaBkG.....................OUmP4A....................PSlIWb+HCaa9iLrs4Oxv1l+HCaa1TXsQGOidsB7L50JvynWq.OidsBBElaqA....................PayA2c+.H..7Cf..vO.B..+.H..zVavc2O.B..+.H..7Cf..vO.B..s8Vaq4CHjRgOfPJE9.BoT3CHjRAbt0Fb+.H..7Cf..vO.B..+.H...Wask1O....+....7C...vO....kEGb28Cf..vO.B..+.H..7Cf...YxMWZ.....................v1avc2O....+....7C...vO....r81cv8id8G5O50en+nW+g9id8GJZoA2c+....7C...vO....+....fVZmAmO.vTo9..Sk5C.LUpO.vTovECb28Cf..vO.B..+.H..7Cf...bqEiY9roFk4ylZTlOapQY9roFkA2ZwDmOqA6X9rFri4yZvNlOqA6XvsVLm8C...vO....+....7C....bx.2c+.H..7Cf..vO.B..+.H...2ZxX1OIsrM+jzx17SRKayOIsrMvslLw4yZvNlOqA6X9rFri4yZvNFbqIyY+....7C...vO....+....DmazoG..........................."
+							}
+
+						}
+ ],
+					"bp.FM::Amt" : [ 0.0 ],
+					"bp.FM::Depth" : [ 2.0 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ 0.0 ],
+					"bp.FM::Ratio" : [ 1.23 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 0.0,
+										"EnvInterval" : 50.0,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : 0.0,
+										"EnvSmooth" : 50.0,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1000.0,
+										"FilterGain" : 0.0,
+										"FilterQ" : 1.0,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "bx_rooMS",
+							"origin" : "bx_rooMS.vstinfo",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "bx_rooMS.vstinfo",
+								"plugindisplayname" : "bx_rooMS",
+								"pluginsavedname" : "C74_VST:/bx_rooMS",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "988.CMlaKA....fQPMDZ....AHFdx0F...P.....fSTYlEVcrQG..............................L.nP0FcxA..CPI..L.m....s....P......v81cx8Cf..vO.B..+.H..7Cf..PSogGT+.H..7Cf..vO.B..+.H..jjavwzO....+....7C...vO....OUGcL8C...vO....+....7C...vTooWY+.H..7SV13zOYYiS+jkMNIkYiQ2O54uf+TS7i7SMwOxO0D+HDkVaP8Cf..vOyMyL+L2Ly7ybyLCTxUFT......................kbkQD.....................XYTYj8Cf..vO.B..+.H..7Cf...QxkGQ.....................LEbxA0O.B..+.H..7Cf..vO.B..SAmbj8C...vO....+....7C....RSgFT+.H..7Cf..vO.B..+.H..fzTnYzOW8yn+b0Oi9yU+L5OW8ynHMEZL8SMUY0O0TkU+TSUV8SMUYESSgFT+.H..7Cf..vO.B..+.H..vzTnYjOLWU+9vbU86CyU0uOLWU+LMEZL8Cf..vO.B..+.H..7Cf...QD8ja.....................jjaBkG.....................OUmP4A....................PSlIWb+HCaa9iLrs4Oxv1l+HCaa1TXsQGOidsB7L50JvynWq.OidsBBElaqA....................PayA2c+.H..7Cf..vO.B..+.H..zVavc2O.B..+.H..7Cf..vO.B..s8Vaq4CHjRgOfPJE9.BoT3CHjRAbt0Fb+.H..7Cf..vO.B..+.H...Wask1O....+....7C...vO....kEGb28Cf..vO.B..+.H..7Cf...YxMWZ.....................v1avc2O....+....7C...vO....r81cv8id8G5O50en+nW+g9id8GJZoA2c+....7C...vO....+....fVZmAmO.vTo9..Sk5C.LUpO.vTovECb28Cf..vO.B..+.H..7Cf...bqEiY9roFk4ylZTlOapQY9roFkA2ZwDmOqA6X9rFri4yZvNlOqA6XvsVLm8C...vO....+....7C....bx.2c+.H..7Cf..vO.B..+.H...2ZxX1OIsrM+jzx17SRKayOIsrMvslLw4yZvNlOqA6X9rFri4yZvNFbqIyY+....7C...vO....+....DmazoG..........................."
+							}
+
+						}
+ ],
+					"bp.FM::Amt" : [ 0.0 ],
+					"bp.FM::Depth" : [ 2.0 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ 0.0 ],
+					"bp.FM::Ratio" : [ 1.23 ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Max AutoFilter.amxd",
+							"origin" : "Max AutoFilter.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Max AutoFilter.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoFilter/Max AutoFilter.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 100.0,
+										"EnvFollower" : 0.0,
+										"EnvInput" : 0.0,
+										"EnvInterval" : 50.0,
+										"EnvMode" : 0.0,
+										"EnvSharpness" : 0.0,
+										"EnvSmooth" : 50.0,
+										"FilterFreqOffset" : 50.0,
+										"FilterFreqRange" : 1000.0,
+										"FilterGain" : 0.0,
+										"FilterQ" : 1.0,
+										"FilterType" : 4.0,
+										"Gain" : 0.0
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"function" : [ 1000.0, 0.0, 1.0, 1.684765092870024, 0.890332874234517, 0, 245.211214638770883, 0.258846398035685, 0, 756.487810383451801, 0.808199540901184, 0, 1000.0, 0.288179731369019, 0, "linear" ],
+					"live.slider" : [ 91.02605764092992 ],
+					"live.slider[1]" : [ 63.533665796189837 ],
+					"slider" : [ 88 ],
+					"slider[1]" : [ 61 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "bx_rooMS",
+							"origin" : "bx_rooMS.vstinfo",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "bx_rooMS.vstinfo",
+								"plugindisplayname" : "bx_rooMS",
+								"pluginsavedname" : "C74_VST:/bx_rooMS",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "988.CMlaKA....fQPMDZ....AHFdx0F...P.....fSTYlEVcrQG..............................L.nP0FcxA..CPI..L.m....s....P......v81cx8Cf..vO.B..+.H..7Cf..PSogGT+.H..7Cf..vO.B..+.H..jjavwzO....+....7C...vO....OUGcL8C...vO....+....7C...vTooWY+.H..7SV13zOYYiS+jkMNIkYiQ2O54uf+TS7i7SMwOxO0D+HDkVaP8Cf..vOyMyL+L2Ly7ybyLCTxUFT......................kbkQD.....................XYTYj8Cf..vO.B..+.H..7Cf...QxkGQ.....................LEbxA0O.B..+.H..7Cf..vO.B..SAmbj8C...vO....+....7C....RSgFT+.H..7Cf..vO.B..+.H..fzTnYzOW8yn+b0Oi9yU+L5OW8ynHMEZL8SMUY0O0TkU+TSUV8SMUYESSgFT+.H..7Cf..vO.B..+.H..vzTnYjOLWU+9vbU86CyU0uOLWU+LMEZL8Cf..vO.B..+.H..7Cf...QD8ja.....................jjaBkG.....................OUmP4A....................PSlIWb+HCaa9iLrs4Oxv1l+HCaa1TXsQGOidsB7L50JvynWq.OidsBBElaqA....................PayA2c+.H..7Cf..vO.B..+.H..zVavc2O.B..+.H..7Cf..vO.B..s8Vaq4CHjRgOfPJE9.BoT3CHjRAbt0Fb+.H..7Cf..vO.B..+.H...Wask1O....+....7C...vO....kEGb28Cf..vO.B..+.H..7Cf...YxMWZ.....................v1avc2O....+....7C...vO....r81cv8id8G5O50en+nW+g9id8GJZoA2c+....7C...vO....+....fVZmAmO.vTo9..Sk5C.LUpO.vTovECb28Cf..vO.B..+.H..7Cf...bqEiY9roFk4ylZTlOapQY9roFkA2ZwDmOqA6X9rFri4yZvNlOqA6XvsVLm8C...vO....+....7C....bx.2c+.H..7Cf..vO.B..+.H...2ZxX1OIsrM+jzx17SRKayOIsrMvslLw4yZvNlOqA6X9rFri4yZvNFbqIyY+....7C...vO....+....DmazoG..........................."
+							}
+
+						}
+ ],
+					"bp.FM::Amt" : [ 0.0 ],
+					"bp.FM::Depth" : [ 2.0 ],
+					"bp.FM::Mute" : [ 0.0 ],
+					"bp.FM::Offset" : [ 0.0 ],
+					"bp.FM::Ratio" : [ 1.23 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
