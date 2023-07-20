@@ -10,3 +10,7 @@ Tutorials
 - [SuperCollider Tutorials](https://www.youtube.com/playlist?list=PLPYzvS8A_rTaNDweXe6PX4CXSGq4iEWYC) from Eli Fieldsteel
 - [List of tutorials](https://supercollider.github.io/tutorials) on the site
 - [Tone to drone](https://schollz.com/tinker/tone-to-drone)
+
+Stuff
+
+- [FluCoMa](https://www.flucoma.org)
