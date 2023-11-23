@@ -9,7 +9,7 @@ SynthDef.new(\voices, {
     arg freq = 110, freqshift = 5, amp = 0.1;
     var sig;
 
-    sig = SinOscFB.ar(freq) + SinOscFB.ar(freq + freqshift) + Dust.ar(freq);
+	sig = SinOscFB.ar(freq) + SinOscFB.ar(freq + freqshift) + (2 * Dust.ar(2 * freq));
 
     sig = sig * amp;
 
@@ -35,11 +35,10 @@ MIDIdef.cc(\voicescc2, {
 	arg value, ccnumber;
 
     "Knob 2 - freqshift".postln;
-	value.linlin(0, 127, 0, 110).postln;
+    value.linlin(0, 127, 0, 110).postln;
 
-	x.set(\freqshift, value.linlin(0, 127, 0, 110));
+    x.set(\freqshift, value.linlin(0, 127, 0, 110));
 
-}, ccNum: 14);
-
+} , ccNum: 14);
 
 )
