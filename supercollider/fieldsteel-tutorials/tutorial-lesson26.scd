@@ -51,9 +51,9 @@ SynthDef.new(\mic, {
 }).add;
 
 SynthDef.new(\ptr, {
-	arg out = 0, buf = 0;
+	arg out = 0, buf = 0, rate = 1;
 	var sig;
-	sig = Phasor.ar(0, BufRateScale.kr(buf), 0, BufFrames.kr(buf));
+	sig = Phasor.ar(0, BufRateScale.kr(buf) * rate, 0, BufFrames.kr(buf));
 	Out.ar(out, sig);
 }).add;
 
@@ -91,8 +91,8 @@ SynthDef.new(\gran, {
 	ptr = ptr - totalDelay;
 	ptr = ptr / BufFrames.kr(buf);
 
-	maxGrainDur = (totalDelay / rateCtrl) / SampleRate.ir;
-	durCtrl = min(durCtrl, maxGrainDur);
+	// maxGrainDur = (totalDelay / rateCtrl) / SampleRate.ir;
+	// durCtrl = min(durCtrl, maxGrainDur);
 
 	sig = GrainBuf.ar(
 		2,
@@ -189,4 +189,83 @@ b.zero;
 
 ~g.do({ arg n; n.set(\gate, 0) });
 
-// 24:34
+(
+b.zero;
+~g = Synth(\gran, [
+	\amp, 0.5,
+	\buf, b,
+	\out, 0,
+	\atk, 1,
+	\rel, 1,
+	\gate, 1,
+	\sync, 0,
+	\dens, 200,
+	\baseDur, 0.1,
+	\durRand, 1,
+	\rate, 1,
+	\rateRand, 1,
+	\pan, 0,
+	\panRand, 0.5,
+	\grainEnv, -1,
+	\ptrBus, ~ptrBus,
+	\ptrSampleDelay, 10000,
+	\ptrRandSamples, 2000,
+	\minPtrDelay, 1000,
+], ~granGrp);
+)
+
+~ptrGrp.set(\rate, 1);
+
+s.defaultGroup.deepFree;
+
+(
+~g = Synth(\gran, [
+	\amp, 0.5,
+	\buf, b,
+	\out, 0,
+	\atk, 1,
+	\rel, 1,
+	\gate, 1,
+	\sync, 0,
+	\dens, 200,
+	\baseDur, 0.1,
+	\durRand, 1,
+	\rate, 1.midiratio,
+	\rateRand, 1,
+	\pan, 0,
+	\panRand, 0,
+	\grainEnv, -1,
+	\ptrBus, ~ptrBus,
+	\ptrSampleDelay, 1,
+	\ptrRandSamples, 0,
+	\minPtrDelay, 0,
+], ~granGrp);
+)
+
+(
+b.zero;
+~g = [-5, -3, 0, 2].collect({
+	arg n;
+	Synth(\gran, [
+		\amp, 0.15,
+		\buf, b,
+		\out, 0,
+		\atk, 1,
+		\rel, 1,
+		\gate, 1,
+		\sync, 0,
+		\dens, 200,
+		\baseDur, 0.1,
+		\durRand, 1,
+		\rate, n.midiratio,
+		\rateRand, 1,
+		\pan, 0,
+		\panRand, 0,
+		\grainEnv, -1,
+		\ptrBus, ~ptrBus,
+		\ptrSampleDelay, 541,
+		\ptrRandSamples, 0,
+		\minPtrDelay, 0,
+	], ~granGrp);
+});
+)
